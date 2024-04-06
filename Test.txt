@@ -1,4 +1,0 @@
-Selenium is automation tool
-
-Java is a programming language
-
