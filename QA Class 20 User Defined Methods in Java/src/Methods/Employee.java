@@ -25,13 +25,14 @@ public class Employee {
 
 	public static void main(String[] args) {
 	
-	Employee emp= new Employee();
-	System.out.println(emp.salary);
-	System.out.println(emp.name);
-	System.out.println(emp.age);
-	emp.info();
-	emp.display();
-	
+		Employee e1= new Employee();//key or object
+		e1.info();
+		e1.display();
+		
+		System.out.println(e1.salary);
+		System.out.println(e1.name);
+		System.out.println(e1.age);
+   
 
 	}
 

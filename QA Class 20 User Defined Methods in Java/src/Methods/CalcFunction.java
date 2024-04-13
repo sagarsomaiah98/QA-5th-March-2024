@@ -32,6 +32,7 @@ public class CalcFunction {
    cal.addition();
    cal.addition();
    
+  cal.subtraction();
  
 		
 	}
