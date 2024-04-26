@@ -2,6 +2,7 @@
 public class ReadFromExcel {
 
 	public static void main(String[] args) {
+		//https://poi.apache.org/components/spreadsheet/quick-guide.html#NewWorkbook
 		
 		Xls_Reader xls= new Xls_Reader("S:\\JANBASK\\QA-5th-March-2024\\Excel_Parameterization\\src\\TESTDATA\\TESTSUITE.xlsx");
 		int rowCount=xls.getRowCount("GMAIL");
