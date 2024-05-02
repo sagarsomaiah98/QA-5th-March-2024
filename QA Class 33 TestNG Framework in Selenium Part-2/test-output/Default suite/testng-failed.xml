@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgEx.DataProvider_Ex">
+      <class name="TestNgEx.AssertionEx">
         <methods>
-          <include name="login" invocation-numbers="1"/>
+          <include name="comparetest2"/>
         </methods>
-      </class> <!-- TestNgEx.DataProvider_Ex -->
+      </class> <!-- TestNgEx.AssertionEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
