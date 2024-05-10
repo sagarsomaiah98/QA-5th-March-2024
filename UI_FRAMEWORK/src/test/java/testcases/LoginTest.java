@@ -8,9 +8,12 @@ import org.testng.annotations.Test;
 
 import pages.LoginPage;
 import testbase.TestBase;
+import testutil.TestUtil;
 
 public class LoginTest extends TestBase {
 	LoginPage login;
+
+	
 	
 	@BeforeMethod
 	public void init() throws IOException {
@@ -25,7 +28,8 @@ public class LoginTest extends TestBase {
 		
 		
 		login.login("BruceWayne123@gmail.com", "123456789");
-		
+		TestUtil.Screenshot();
+	
 	}
 	
 	@Test
@@ -35,6 +39,8 @@ public class LoginTest extends TestBase {
 		login= new LoginPage();
 		
 		login.login("username1@gmail.com", "123456789");
+		TestUtil.Screenshot();
+	
 		
 	}
 
@@ -43,4 +49,5 @@ public class LoginTest extends TestBase {
 	public void teardown() {
 		driver.quit();
 	}
+	
 }
